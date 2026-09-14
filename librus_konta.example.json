@@ -1,0 +1,13 @@
+{
+  "accounts": [
+    {
+      "username": "student-login",
+      "password": "$LIBRUS_PASSWORD_1",
+      "konto": "Uczeń",
+      "recipients": [
+        "parent@example.com"
+      ],
+      "token_file": "state/librus-student.token"
+    }
+  ]
+}

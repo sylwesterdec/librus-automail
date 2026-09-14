@@ -1,0 +1,3 @@
+librus-apix==1.5.1
+msal==1.33.0
+msal-extensions==1.3.1

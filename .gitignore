@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+librus-automail.env
+librus_konta.json
+*.token
+tok-*.txt
+smtp_token_cache.bin
+state/
+*.sqlite3
+*.sqlite3-*
+*.log
+.DS_Store

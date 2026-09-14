@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Librus AutoMail every 30 minutes
+
+[Timer]
+OnCalendar=*-*-* *:00/30:00
+AccuracySec=1min
+Persistent=true
+Unit=librus-automail.service
+
+[Install]
+WantedBy=timers.target

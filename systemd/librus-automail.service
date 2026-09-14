@@ -1,0 +1,12 @@
+[Unit]
+Description=Librus AutoMail message forwarder
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/librus-automail
+Environment=PYTHONNOUSERSITE=1
+EnvironmentFile=%h/librus-automail/librus-automail.env
+ExecStart=%h/librus-automail/.venv/bin/python %h/librus-automail/librus_automail.py
+Nice=10
