@@ -2,10 +2,6 @@
 
 Skrypt cyklicznie sprawdza pierwszą stronę odebranych wiadomości w Librusie i przesyła nowe, nieprzeczytane wiadomości na wskazane adresy e-mail przez Outlook SMTP z OAuth2.
 
-## Informacja o wykorzystaniu AI
-
-Projekt powstał przy wsparciu narzędzia sztucznej inteligencji OpenAI Codex. AI pomogła w analizie wymagań, przygotowaniu kodu, testów oraz dokumentacji. Przed publikacją rezultat został sprawdzony i przetestowany przez opiekuna projektu. Informację zamieszczono w celu przejrzystego ujawnienia udziału AI, również w kontekście zasad przejrzystości unijnego AI Act.
-
 ## Jak działa
 
 - obsługuje wiele kont Librus;
@@ -101,3 +97,8 @@ tail -n 100 "$HOME/librus-automail/librus_email.log"
 ```bash
 ./.venv/bin/python -m unittest -v test_librus_automail.py
 ```
+
+
+## Informacja o wykorzystaniu AI
+
+Projekt powstał przy wsparciu narzędzia sztucznej inteligencji OpenAI Codex. AI pomogła w analizie wymagań, przygotowaniu kodu, testów oraz dokumentacji. Przed publikacją rezultat został sprawdzony i przetestowany przez opiekuna projektu. Informację zamieszczono w celu przejrzystego ujawnienia udziału AI, również w kontekście zasad przejrzystości unijnego AI Act.
